@@ -37,7 +37,7 @@ const drawSnake = () => {
 
 /*Asignar cada cuadrado al tablero
 square: posicion del cuadrado
-type: tipo de cuadrado(emptyAquare, snakeSquare, foodSquare)
+type: tipo de cuadrado(emptySquare, snakeSquare, foodSquare)
 */
 const drawSquare = (square, type) => {
     const  [row, column] = square.split('');
@@ -96,7 +96,6 @@ const gameOver = () => {
     clearInterval(moveInterval);
     startButton.disabled = false;
 }
-
 
 
 
