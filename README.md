@@ -1,2 +1,2 @@
 # JavaScript-HTML-y-CSS
-Proyecto en JS, HTML y CSS
+Proyectos en JS, HTML y CSS
